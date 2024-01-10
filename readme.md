@@ -1,8 +1,11 @@
 # sap-tools
 
-A collection of tools for working with SAP data
+A collection of tools for working with SAP data:
+1) tree_processing
+2) materials_semantic_search
 
-## tree-processing
+
+## tree_processing
 A module to process tree data into materialised path and column store data. This allows tree data to be efficiently traversed without slow, recursive queries.
 
 Most notably, this could be applied to SAP Functional Location data. Functional Location data often follow an ISO 14224 maintenance taxomomy as shown:
@@ -59,3 +62,9 @@ The function also populates twelve levels of columns following the following pat
 These extra columns can be added into a PowerBI hierarchy, giving a powerful way to filter using the tree hierarchy, (eg quickly filter to all maintenance within the power generation system)
 
 The function also computes the depth, and the number of children for each node.
+
+
+
+## materials_semantic_search
+
+This workbook performs semantic search of SAP materials data. To do this, it builds transformer embeddings on the reference dataset, and compares a given search term to these embeddings using a cosine similarity metric.

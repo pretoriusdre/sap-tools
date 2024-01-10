@@ -1,3 +1,7 @@
+# Proprietary data that cannot be shared:
+proprietary/
+
+
 */input/*
 !*/input/IH06_example.xlsx
 !*/input/starting_tree_structure_example.json
