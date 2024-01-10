@@ -1,0 +1,17 @@
+[
+    [
+        {"ROOT_NODE":"Description for root node"}
+    ],
+    [
+        {"ROOT_NODE":"Description for root node"},
+        {"REGION1":"REGION1 description"}
+    ],
+    [
+        {"ROOT_NODE":"Description for root node"},
+        {"REGION2":"REGION2 description"}
+    ],
+    [
+        {"ROOT_NODE":"Description for root node"},
+        {"REGION3":"REGION3 description"}
+    ]
+]
